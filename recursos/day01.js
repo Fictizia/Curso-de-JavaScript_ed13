@@ -86,9 +86,9 @@ function buttonState(inputValue) {
  // necesito comprobar el valor de mi variable: DONE (89)
  // si mi variable tiene algo --> cambio el valor del estado del boton: DONE (90)
 
- let bState = false;
+ let bState = false; //Definir el estado inicial del boton --> deshabilitado 
 
- if (inputValue) { // Condicional
-   bState = true;
+ if (inputValue) {   // Condicional
+   bState = true;    // Estado final del algoritmo
  }                         
 }
