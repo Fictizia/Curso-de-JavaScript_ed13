@@ -25,19 +25,12 @@ function compare(x , y) {
 
 // Segunda solucion
 function compare(x , y) {
-    let result = y;
-
-    if(typeof x === Number && typeof y === Number) {
+    let result;
         if (x - y === 0) {
             result = 'X e Y son iguales';
         } else {
-            // O bien x>y o x<y
-            if (x > y ) {
-            // Devuelvo x
-            result = x;
-            } 
+            //Operador ternario
+            result = x > y ? x : y;
         }
-    }
-
     return result;
 }
