@@ -20,6 +20,7 @@ var  variants =  [
 
   var initialPosition = 0;
   var currentPosition = 0;
+  var totalProducts = 0;
 
   function updateProduct(index) {  
     currentPosition = index;
@@ -43,7 +44,9 @@ var  variants =  [
 }
 
 function addToCard() {
-  
+  variants[currentPosition].stock--;
+  totalProducts++;
+  document.getElementById('btn').disabled = changeButtonState();
 }
 
 
