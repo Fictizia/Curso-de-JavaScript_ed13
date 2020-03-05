@@ -1,0 +1,50 @@
+body{
+  background-color:#fff;
+}
+.popup_main_div{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -250px;
+    display: none;
+ 
+
+  }
+
+  .close:before{ content: "\2716"; }
+  .close {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+  }
+  .close p {
+    margin-top: 5px;
+    font-weight: 400;
+  }
+   .text{
+     text-align: center;
+     font-size: 30px;
+     font-weight: 400;
+     margin-top: 22%;
+   }
+
+   button {
+     position: absolute;
+     left: 50%;
+     top:20%;
+
+   }
