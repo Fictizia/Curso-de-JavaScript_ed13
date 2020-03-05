@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    
+	
+	<div class='dropdown'>
+		<div class='title pointerCursor' onclick="toggleMenuDisplay()" onchange="handleTitleChange()">Select an option<i class="fa fa-angle-right"></i></div>
+		
+		<div class='menu pointerCursor hide'>
+			<div class='option' id='option1' onclick="handleOptionSelected(0)">Option 1</div>
+			<div class='option' id='option2' onclick="handleOptionSelected(1)">Option 2</div>
+			<div class='option' id='option3' onclick="handleOptionSelected(2)">Option 3</div>
+			<div class='option' id='option4' onclick="handleOptionSelected(3)">Option 4</div>
+		</div>
+
+	</div>
+
+	<span id='result'>The result is: </span>
+</body>
+</html>
